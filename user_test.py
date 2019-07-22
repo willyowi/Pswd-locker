@@ -9,7 +9,7 @@ from  user import User
          self.assertEqual(self.new_user.m_name,"Owino")
          self.assertEqual(self.new_user.e_mail,"Wilson@gmail.com")
      def test_save_user(self):
-#         self.new_user.save_user()
+         self.new_user.save_user()
 #
 #     def tearDown(self):
 #         User.userlist = []
