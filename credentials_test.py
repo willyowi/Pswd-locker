@@ -8,9 +8,9 @@ from credentials import Info
          self.assertEqual(self.new_info.face_bookp,"collins.kariuki")
          self.assertEqual(self.new_info.email_p,"kariuki.collins")
      def test_save_info(self):
-#         '''
-#         to test if user info is saved
-#         '''
+         '''
+         to test if user info is saved
+         '''
 #         self.new_info.save_info()
 #         self.assertEqual(len(Info.info_list),1)
 #     def tearDown(self):
