@@ -10,10 +10,10 @@ from  user import User
          self.assertEqual(self.new_user.e_mail,"Wilson@gmail.com")
      def test_save_user(self):
          self.new_user.save_user()
-#
-#     def tearDown(self):
-#         User.userlist = []
-#     def test_delete_user(self):
+
+     def tearDown(self):
+         User.userlist = []
+     def test_delete_user(self):
 #         self.new_user.save_user()
 #         test_data= User("ariana","gathoni","ariana@gmail.com")
 #         test_data.save_user()
