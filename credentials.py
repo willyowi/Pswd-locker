@@ -19,4 +19,4 @@
          '''
          a class method involves the whole class the display info display user information
          '''
-#         return cls.info_list
+         return cls.info_list
