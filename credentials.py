@@ -1,4 +1,4 @@
- class Info:
+class Info:
      info_list = []
 
      def __init__(self,face_bookp,email_p):

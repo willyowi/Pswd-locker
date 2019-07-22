@@ -27,7 +27,8 @@ def main():
    1. cc - CREATE NEW ACCOUNT
    2. ex - EXIT PASSWORD LOCKER
    3. dac - DISPLAY ACCOUNTS
-   4. gs - GENERATE PASSWORDS""")
+   4. np -KEY YOUR OWN PASSWORD AND ACCOUNT
+   5. gs - GENERATE PASSWORDS""")
 
 
          print(" ")
@@ -99,11 +100,23 @@ def main():
 
 
 
+         elif short_code == "np":
+             print("-" * 156)
+             print("what is your first name?..")
+             np_name=input()
+             print(" ")
+             print("which account do you wanna save your password for?")
+             p_account=input()
+             print(" ")
+             print("whats the password")
+             pw=input()
+             print(f"hey {np_name}  your password for {p_account} has been saved as {pw}")
+
 
          elif short_code == "ex":
             print("-" * 156)
             print(" ")
-            print("                        THAX FOR DROPING IN!")
+            print("                        Thankx FOR DROPING IN!")
             print("                           Bye... Bye...")
             print(" ")
             print("-" * 156)
