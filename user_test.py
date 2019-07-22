@@ -3,12 +3,12 @@ from  user import User
 
  class TestUser(unittest.TestCase):
      def setUp(self):
-         self.new_user = User("Collins","Kariuki","collins@gmail.com",)
+         self.new_user = User("WIlson","Owino","wilson@gmail.com",)
      def test1(self):
-#         self.assertEqual(self.new_user.f_name,"Collins")
-#         self.assertEqual(self.new_user.m_name,"Kariuki")
-#         self.assertEqual(self.new_user.e_mail,"collins@gmail.com")
-#     def test_save_user(self):
+         self.assertEqual(self.new_user.f_name,"Wilson")
+         self.assertEqual(self.new_user.m_name,"Owino")
+         self.assertEqual(self.new_user.e_mail,"Wilson@gmail.com")
+     def test_save_user(self):
 #         self.new_user.save_user()
 #
 #     def tearDown(self):
