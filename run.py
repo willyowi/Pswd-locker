@@ -12,9 +12,9 @@
      user.save_user()
  def save_credentials(credentials):
      credentials.save_info()
-# def display_users():
-#     return User.display_users()
-# def display_creds():
+ def display_users():
+     return User.display_users()
+ def display_creds():
 #     return Info.display_info()
 # def main():
 #     print(" ")
