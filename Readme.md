@@ -6,7 +6,7 @@ This is a simple shell application that allows a user to store their profile cre
 
 ## Authors
 
-* **Collins Kariuki**
+* **Wilson Owino**
 
 ## Getting Started
 
@@ -14,26 +14,12 @@ This is a simple shell application that allows a user to store their profile cre
 
 1. You need to get into the **Project Repository.**
 
-Link:-> ```https://github.com/zecollokaris/password-locker```
 
 2. **Clone the project.**
 
 3. **get into project** folder (cd into project).
 
 4. If you have all the Pre-requisites you can **run the application.**
-
-## DISPLAY
-
-![](spec.md/password1.png)
----
-![](spec.md/password2.png)
----
-![](spec.md/password3.png)
----
-![](spec.md/password4.png)
----
-![](spec.md/passwordlast.png)
----
 
 ### Prerequisites
 
@@ -71,14 +57,10 @@ The app will open on terminal
 
 
 ## Support & Contact
+- Email Address: wislonowino1@gmail.com
 
-- Mobile number: (+254) 798731203
-
-- Email Address: collo.kariss@gmail.com
-
-- github-username: zecollokaris
+- github-username: willyowi
 
 ## License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE.md) file for details
-
