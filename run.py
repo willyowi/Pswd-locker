@@ -8,10 +8,10 @@
  def create_credentials(face_bookp,e_mailp):
      new_cred = Info(face_bookp,e_mailp)
      return new_cred
-# def save_account(user):
-#     user.save_user()
-# def save_credentials(credentials):
-#     credentials.save_info()
+ def save_account(user):
+     user.save_user()
+ def save_credentials(credentials):
+     credentials.save_info()
 # def display_users():
 #     return User.display_users()
 # def display_creds():
