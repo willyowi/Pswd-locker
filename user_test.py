@@ -14,11 +14,11 @@ from  user import User
      def tearDown(self):
          User.userlist = []
      def test_delete_user(self):
-#         self.new_user.save_user()
-#         test_data= User("ariana","gathoni","ariana@gmail.com")
-#         test_data.save_user()
-#         self.assertEqual(len(User.user_list),2)
-#     def test_display_user(self):
+         self.new_user.save_user()
+         test_data= User("ariana","gathoni","ariana@gmail.com")
+         test_data.save_user()
+         self.assertEqual(len(User.user_list),2)
+     def test_display_user(self):
          self.assertEqual(User.display_users(),User.user_list)
  if __name__ == '__main__':
      unittest.main()
